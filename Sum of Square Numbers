@@ -1,0 +1,8 @@
+bool judgeSquareSum(int c){
+    unsigned long long int a,b;
+    for(a=0;a<=c;a++)
+        for(b=0;b<=c;b++)
+            if(a*a+b*b==c)
+                return true;
+            return false;
+}
